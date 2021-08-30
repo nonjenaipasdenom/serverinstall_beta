@@ -1,13 +1,13 @@
+#!/bin/bash
+#set -x
+
+# Absurd_TBS_ServerInstallBeta
+
 # update packages
 sudo apt-get update && sudo apt-get upgrade
 
 # prerequisites
 sudo apt-get install -y less libpcre3 git
-
-#!/bin/bash
-#set -x
-
-# Absurd_TBS_ServerInstallBeta
 
 # clone htan to /usr/lib/htan
 sudo git clone https://github.com/adminstock/htan.git /usr/lib/htan
